@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    color: #fff;
+    border: 0;
+    padding: 18px 35px;
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, 30px;
+    padding-left: 20px;
+}
+
+/* header and nav style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px 50px 140px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-left: 50px;
+    color: #fff;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    position: relative;
+}
+
+nav ul li a:hover {
+    color: #FD6E0A;
+    transition: .1s;
+}
+
+/* banner style */
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 30px 0 140px;
+    justify-content: center;
+}
+
+.banner-sub-title {
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+
+.banner-title {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.banner-discription {
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
+    margin-top: 130px;
+    padding: 130px 150px;
+    background: #FFF8F3;
+    border-radius: 10px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+}
+
+.section-discription {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+/* about-info-contaner style */
+.about-info-contaner {
+    display: flex;
+    justify-content: space-around;
+}
+.about-info {
+    text-align: center;
+}
+.info-title {
+    font-size: 20px;
+    color: #757575;
+}
+.info-discription {
+    font-size: 20px;
+    font-weight: 700px;
+    color: #474747;
+}
