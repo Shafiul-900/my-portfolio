@@ -175,6 +175,7 @@ main {
 .whats {
     margin-bottom: 113px;
 }
+
 .resume {
     margin-top: 130px;
 }
@@ -182,7 +183,7 @@ main {
 .resume-content {
     display: flex;
     gap: 24px;
-    
+
 }
 
 .resume-item .title {
@@ -208,7 +209,54 @@ main {
     color: #757575;
     padding-right: 30px;
 }
+
 hr {
     color: #D1D1D1;
+    margin-top: 30px;
+}
+
+.resume-button {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* style for footer */
+.connect h3 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+}
+
+.connect div p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+
+}
+.connect div img, a {
+    margin-right: 5px;
+    text-decoration: none;
+}
+.connect {
+    display: flex;
+    margin-top: 113px;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 120px;
+}
+
+.connect input[type="text"],
+textarea,input[type="email"] {
+    margin-bottom: 24px;
+    border: 0;
+    padding: 18px 30px;
+    width: 100%;
+}
+
+.connect div input:first-child {
     margin-top: 30px;
 }
