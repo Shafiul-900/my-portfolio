@@ -117,20 +117,98 @@ main {
     line-height: 30px;
     color: #757575;
 }
+
 /* about-info-contaner style */
 .about-info-contaner {
     display: flex;
     justify-content: space-around;
 }
+
 .about-info {
     text-align: center;
 }
+
 .info-title {
     font-size: 20px;
     color: #757575;
 }
+
 .info-discription {
     font-size: 20px;
     font-weight: 700px;
     color: #474747;
+}
+
+/* style for what-i-do */
+.what-i-do {
+    margin-top: 130px;
+}
+
+.what {
+    padding: 0 60px;
+}
+
+.skill-contaner {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 30px 0 20px 0;
+
+}
+
+.skill-discription {
+    color: #757575;
+}
+
+/* style for resume */
+.whats {
+    margin-bottom: 113px;
+}
+.resume {
+    margin-top: 130px;
+}
+
+.resume-content {
+    display: flex;
+    gap: 24px;
+    
+}
+
+.resume-item .title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #474747;
+    margin-top: 30px;
+}
+
+.resume-item .sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+    margin: 10px 0 20px 0;
+}
+
+.resume-item .discription {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    padding-right: 30px;
+}
+hr {
+    color: #D1D1D1;
+    margin-top: 30px;
 }
